@@ -1,0 +1,32 @@
+* {
+	font-family: Arial, Helvetia, sans-serif;
+	font-size: 10pt;
+}
+
+hr {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #ccc;
+}
+
+td, th {
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #ccc;
+	padding: 0;
+}
+
+table th {
+	text-align: left;
+	vertical-align: top;
+	padding-right: 2em;
+	font-weight: normal;
+	padding: 0.8em 0.8em 0.8em 0.8em;
+	width: 25em;
+}
+

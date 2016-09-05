@@ -1,0 +1,17 @@
+[general]
+ 
+[poll]
+ 
+in.source:  snmp://community@router2/1.3.6.1.4.1.2636.3.5.2.1.5.6.97.99.114.95.105.110.2.105.110.2
+out.source: snmp://community@router2/1.3.6.1.4.1.2636.3.5.2.1.5.7.97.99.114.95.111.117.116.3.111.117.116.2
+ 
+interval: 300
+ 
+[create]
+ 
+in.type: COUNTER
+out.type: COUNTER
+ 
+cf: AVERAGE, MAX
+ 
+archive: 12/hour * 1 year, 2/hour * 5 year

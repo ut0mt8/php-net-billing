@@ -1,0 +1,14 @@
+[general]
+ 
+[poll]
+ 
+interval: 60
+ 
+[create]
+ 
+in.type: GAUGE
+out.type: GAUGE
+ 
+cf: AVERAGE, MAX
+ 
+archive: 12/hour * 1 year, 2/hour * 5 year
